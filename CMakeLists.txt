@@ -19,7 +19,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 #---- project configuration ----
 option(BUILD_EXAMPLES   "Build tutorials and examples" ON)
-option(BUILD_UNIT_TESTS "Build the unit tests" ON)
+option(BUILD_UNIT_TESTS "Build the unit tests" OFF)
 option(BUILD_TOOLS "Build commandline tools" ON)
 option(BUILD_SHARED_LIBS "Build shared libraries" ON)
 option(BUILD_MANUAL_SELECTOR "Build manual selector node" ON)
